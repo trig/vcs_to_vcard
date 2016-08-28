@@ -27,5 +27,5 @@ while (!feof($file)) {
         print "\e[037m.\e[0m";
     }
 }
-
+$counter--;
 print "\nDone. Converted \e[032m{$counter}\e[0m vcard files.\n";
